@@ -1,9 +1,10 @@
 import React from 'react'
-import { SumarioProducto } from './sumarioProducto'
+import { SumariosPC } from './SumariosPC';
+import { SumariosMobile } from './SumariosMobile';
 
 export const Recomendaciones = () => {
 
-    let arrayPropiedadesProducto = [
+    const arrayPropiedadesProducto = [
     
         {
             nombre:'Sin Gluten',
@@ -21,21 +22,13 @@ export const Recomendaciones = () => {
 
         <div className='recomendaciones'>
 
-            <span className='msgRecomendaciones'> También te pueden interesar nuestros top ventas</span>
-
-            <div className='productos'>
-
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
-                <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={arrayPropiedadesProducto}/>
             
-                
 
-
-            </div>
+            {
+                (screen.width >= 768) 
+                    ? <SumariosPC propiedadesProducto={arrayPropiedadesProducto}/> 
+                    : <SumariosMobile propiedadesProducto={arrayPropiedadesProducto}/> 
+           }
 
 
 

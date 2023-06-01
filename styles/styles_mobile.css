@@ -38,6 +38,8 @@
 
     width: 405px;
     height: 86px;
+    background-color: #6c8de9;
+
 
 
     /* Inside auto layout */
@@ -67,7 +69,7 @@
 
         /* Most used/White */
 
-        background: #FFFFFF;
+        background-color: #e97633;
 
         /* Inside auto layout */
 
@@ -238,6 +240,7 @@ flex-grow: 0;
 
     /* width: 375px;
     height: 1030px; */
+    
 
 
     /* Inside auto layout */
@@ -253,7 +256,7 @@ flex-grow: 0;
     /* ¿Exploramos nuestras categorías? */
 
 
-    width: 335px;
+    /* width: 335px; */
     /* height: 44px; */
 
     font-family: 'Montserrat';
@@ -266,7 +269,7 @@ flex-grow: 0;
     text-align: center;
 
     color: #002655;
-    padding-left: 10px;
+    padding-left: 3px;
 
 
     /* Inside auto layout */
@@ -292,6 +295,7 @@ flex-grow: 0;
 
     width: 359px;
     height: 36px;
+    margin-left: 7.5px;
 
 
     /* Inside auto layout */
@@ -392,8 +396,8 @@ flex-grow: 0;
 
 .msgRecomendaciones{/*Estilo del mensaje TAMBIEN TE PUEDEN INTERESAR...*/
    
-    width: 295px;
-        height: 28px;
+    /* width: 295px;
+        height: 28px; */
 
         font-family: 'Montserrat';
         font-style: normal;
@@ -429,6 +433,7 @@ flex-grow: 0;
 
     width: 375px;
     height: 272px;
+    margin-top: 8px;
 
 
     /* Inside auto layout */
@@ -709,7 +714,7 @@ flex-grow: 0;
     top: 6.5px;
 
 
-    /* Inside auto layout */
+   
 
     flex: none;
     order: 1;
@@ -723,24 +728,28 @@ flex-grow: 0;
     /* Footer Desktop */
 
 
+/* Footer mobile */
+
+
 /* Auto layout */
 
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 32px 0px 0px;
+padding: 0px;
 
-width: 1366px;
-height: 697px;
+width: 405px;
+height: 1096.23px;
 
 /* Most used/White */
 
-background: #FFFFFF;
+background-color: #6c8de9;
 
 /* Inside auto layout */
 
 flex: none;
-order: 5;
-align-self: stretch;
+order: 3;
 flex-grow: 0;
 }
+
+

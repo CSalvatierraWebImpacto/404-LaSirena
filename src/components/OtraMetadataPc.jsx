@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const OtraMetadata = () => {
+export const OtraMetadataPC = () => {
   return (
     <div className='otherMetadata'>
 

@@ -32,6 +32,7 @@
 
     width: 1366px;
     height: 186px;
+    background-color: rgb(116, 116, 236);
 
 
     /* Inside auto layout */
@@ -59,10 +60,12 @@
 
     width: 1366px;
     height: 44px;
+    background-color: rgb(224, 44, 44);
+
 
     /* Most used/White */
 
-    background: #FFFFFF;
+    background-color: #6c8de9;
 
     /* Inside auto layout */
 
@@ -790,7 +793,8 @@ height: 697px;
 
 /* Most used/White */
 
-background: #FFFFFF;
+background-color: #6c8de9;
+
 
 /* Inside auto layout */
 

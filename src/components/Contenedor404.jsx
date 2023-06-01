@@ -30,9 +30,12 @@ export const Contenedor404 = () => {
         
 
         {
-          (screen.width <= 768) ? <CategoriasPC /> : <CategoriasMobile /> 
+          (screen.width >= 768) 
+          ? <CategoriasPC /> 
+          : <CategoriasMobile /> 
         }
-    
+
+        
       </div>
 
 

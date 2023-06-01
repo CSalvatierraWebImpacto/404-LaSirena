@@ -1,8 +1,11 @@
 import React from 'react'
 import { DatosProducto } from './DatosProducto'
-import { OtraMetadata } from './OtraMetadata'
+import { OtraMetadataPC } from './OtraMetadataPc'
+import { OtraMetadataMobile } from './OtraMetadatMobile'
 
 export const SumarioProducto = ({nombreProducto, propiedadesProducto}) => {
+
+    
 
   return (
     <div className="sumarioProducto">
@@ -26,7 +29,13 @@ export const SumarioProducto = ({nombreProducto, propiedadesProducto}) => {
         </div>
 
 
-        <OtraMetadata/>
+        {
+            (screen.width >=768)
+                    ? <OtraMetadataPC/>
+                    : <OtraMetadataMobile/>
+
+        }
+
 
     </div>
   )
