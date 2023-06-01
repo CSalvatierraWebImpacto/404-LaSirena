@@ -1,0 +1,746 @@
+
+.desktop{ /*Estilo del cuerpo de la página entero*/
+    /* Mobile - 404 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+
+    position: relative;
+    width: 405px;
+    height: 2292.23px;
+    
+
+    /* Most used/White */
+
+    background: #FFFFFF;
+}
+
+
+
+.header{/*temporal del header*/
+
+    /* Header mobile */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 6px;
+
+    width: 405px;
+    height: 86px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.breadcum{/*temporal del breadcrumb*/
+
+      /* BreadCrumb */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6px 15px;
+        gap: 4px;
+
+        width: 405px;
+        height: 28px;
+
+        /* Most used/White */
+
+        background: #FFFFFF;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+}
+
+
+
+
+.div404 {/*estilo del contenedeor que ovupa desde el mensaje de error hatsa los botones de categorias*/
+    /* Container primary info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 375px;
+    height: 750px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+.productInfo{/*Estilos del contenedor que contiene el contenedor de los mensajes obre la imagen del error, y la imagen del error*/
+  /* Product info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 22px 0px 0px;
+
+    width: 375px;
+    height: 240px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.leftColumn{/*Estilos del contenedor con msg del error y la imagen*/
+    /* Left column */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    }
+
+
+.upsPerdon{/*estilo msg UPS PERDON*/
+    /* UPS, PERDÓN! */
+
+
+    width: 335px;
+    height: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+
+    color: #002655;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.msg {/*estilos msg ALGO SE HA CONGELADO......*/
+    /* Algo se ha congelado en algún lugar del océano */
+
+
+    width: 335px;
+    height: 44px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #002655;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.img404{/*Estilos imagen 404*/
+   /* 404 1 */
+
+
+width: 317px;
+height: 118px;
+
+background: url(../assets/404-1.png);
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+.rightColumn{/*Estilo del contenedor donde se alojan los botones de las categorias y so mensaje previo*/
+    /* Container primary info */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    /* width: 375px;
+    height: 1030px; */
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.explorarCategorias{/*Estilo del texto de antes de las categorias*/
+    /* ¿Exploramos nuestras categorías? */
+
+
+    width: 335px;
+    /* height: 44px; */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    /* or 100% */
+
+    text-align: center;
+
+    color: #002655;
+    padding-left: 10px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame{/*Estilo general para cada contenedor en fila que contiene los botones de las categorias*/
+    /* Frame 405 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 359px;
+    height: 36px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+.textButtons{ /*Estilo de los nombres de las categorias dentro de los botones*/
+   /* Pescado */
+
+
+   
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.botonCategorias{/*estilo de los  botones de las categorias*/
+
+   /* Button */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 6px;
+    gap: 25px;
+
+    /* width: 81px;*/
+    height: 36px; 
+
+    background: #7BA6B5;
+    border-radius: 4px;
+    border-color: #7BA6B5;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.recomendaciones{/*Estilo del contenedor que aloja tanto el texto anteriort, como todas las recomendaciones*/
+ /* recetas relacionadas */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px;
+    gap: 16px;
+
+    width: 375px;
+    height: 356px;
+
+    /* Most used/White */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+.msgRecomendaciones{/*Estilo del mensaje TAMBIEN TE PUEDEN INTERESAR...*/
+   
+    width: 295px;
+        height: 28px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        /* identical to box height, or 140% */
+
+
+        /* Most used/Black Primary */
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.productos{/*Estilo del contenedor que aloja todas las recomendaciones*/
+    /* Products 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 375px;
+    height: 272px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.sumarioProducto{/*Estilos de cada uno de los contenedores que aloja un producto recomendado*/
+   /* Product summary */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 159px;
+    height: 272px;
+
+    /* Most used/White */
+
+    background: #FFFFFF;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.imagenRecomendados{/*Estilo de las imagenes recomendadas*/
+
+    /* Image */
+
+
+    width: 159px;
+    height: 139px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+
+
+
+.nameProducto{/*Estilo nombre del producto*/
+    /* Name */
+
+
+    width: 159px;
+    height: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #004078;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+.frame395{/*estilo del div que incluye los datos del producto:  "sin Gluten", "BIO"*/
+    /* Frame 395 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 159px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+
+.divDato{/*Estilo de cada caracteristica y su elipse*/
+    /* no gluten */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 101.88px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.ellipse{ /*estilo de la elipse*/
+    /* Ellipse 2 */
+
+
+    width: 12px;
+    height: 12px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.estiloDato{/*estilo de la caracteristica del producto*/
+    /* Name */
+
+
+    width: 85.88px;
+    height: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+
+    /* Most used/Black Primary */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+
+.frame387{/*Estilo del contenedor quer aloja los precios*/
+    /* Frame 562 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+    width: 79px;
+    height: 45px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+
+
+
+
+.precioNuevo{/*Estilo del nuevo precio*/
+   /* Price */
+
+
+    width: 68.74px;
+    height: 28px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #004078;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+
+.precioAntiguo{/*Estilo del anterior precio*/
+    /* List price */
+
+
+    /* List price */
+
+
+    width: 79px;
+    height: 17.92px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    color: #F1180A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.botonAñadir{/*Estilo del boton de añadir*/
+    position: absolute;
+    width: 51px;
+    height: 39px;
+    left: 108px;
+    top: 6.5px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+
+
+.footer{/*temporal del footer*/
+    /* Footer Desktop */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 0px 0px;
+
+width: 1366px;
+height: 697px;
+
+/* Most used/White */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+}
