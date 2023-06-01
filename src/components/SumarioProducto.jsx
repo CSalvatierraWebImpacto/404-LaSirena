@@ -30,7 +30,7 @@ export const SumarioProducto = ({nombreProducto, propiedadesProducto}) => {
 
 
         {
-            (screen.width >=768)
+            (window.innerWidth >=768)
                     ? <OtraMetadataPC/>
                     : <OtraMetadataMobile/>
 

@@ -17,6 +17,7 @@ export const Recomendaciones = () => {
         }
     ];
 
+    
   return (
     <>
 
@@ -25,7 +26,7 @@ export const Recomendaciones = () => {
             
 
             {
-                (screen.width >= 768) 
+                (window.innerWidth >= 768) 
                     ? <SumariosPC propiedadesProducto={arrayPropiedadesProducto}/> 
                     : <SumariosMobile propiedadesProducto={arrayPropiedadesProducto}/> 
            }
