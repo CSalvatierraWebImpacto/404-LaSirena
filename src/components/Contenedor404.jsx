@@ -1,10 +1,29 @@
-import React from 'react'
-import { Categoria } from './Categoria'
+import React, { useEffect, useState } from 'react'
 import { CategoriasPC } from './CategoriasPC'
 import { CategoriasMobile } from './CategoriasMobile'
 
 
 export const Contenedor404 = () => {
+
+  const [anchuraVentana, setAnchuraVentana] = useState(window.innerWidth);
+
+  useEffect(() => {
+    // Función para actualizar la anchura de la ventana
+    const actualizarAnchuraVentana = () => {
+      setAnchuraVentana(window.innerWidth);
+    };
+
+    // Agregar un listener al evento 'resize' en la ventana
+    window.addEventListener("resize", actualizarAnchuraVentana);
+
+    // Eliminar el listener al desmontar el componente
+    return () => {
+      window.removeEventListener("resize", actualizarAnchuraVentana);
+    };
+  }, []);
+  
+
+
   return (
     
     <div className='div404'>
@@ -30,9 +49,10 @@ export const Contenedor404 = () => {
         
 
         {
-          (window.innerWidth >= 768) 
-          ? <CategoriasPC /> 
-          : <CategoriasMobile /> 
+          
+         (anchuraVentana > 768) 
+                ? <CategoriasPC /> 
+                : <CategoriasMobile /> 
         }
 
         
