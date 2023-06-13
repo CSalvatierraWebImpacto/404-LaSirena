@@ -46,7 +46,7 @@ export const SumarioProducto = ({nombreProducto, propiedadesProducto}) => {
 
 
         {
-            (anchuraVentana > 768)
+            (anchuraVentana > 1060)
                     ? <OtraMetadataPC/>
                     : <OtraMetadataMobile/>
 

@@ -43,7 +43,7 @@ export const Recomendaciones = () => {
             
 
             {
-                (anchuraVentana > 768) 
+                (anchuraVentana > 1060) 
                     ? <SumariosPC propiedadesProducto={arrayPropiedadesProducto}/> 
                     : <SumariosMobile propiedadesProducto={arrayPropiedadesProducto}/> 
            }

@@ -50,7 +50,7 @@ export const Contenedor404 = () => {
 
         {
           
-         (anchuraVentana > 768) 
+         (anchuraVentana > 1060) 
                 ? <CategoriasPC /> 
                 : <CategoriasMobile /> 
         }
