@@ -1,5 +1,9 @@
 import React from 'react'
-import { SumarioProducto } from './sumarioProducto'
+import { SumarioProducto } from './SumarioProducto'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Pagination } from "swiper";
 
 
 export const SumariosMobile = ({propiedadesProducto}) => {
@@ -11,13 +15,57 @@ export const SumariosMobile = ({propiedadesProducto}) => {
 
     <div className='productos'>
 
-        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
-        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
-        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
-        
-    
-        
+        <Swiper
+          modules={[Pagination]}
+          spaceBetween={150}
+          slidesPerView={3}
+          pagination={{
+            clickable: true,
+          }}
+          className="mySwiper"
+        >
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+              <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+              </SwiperSlide>
+          
+          
+        </Swiper>
+
     </div>
+
+
+
+    {/*
+
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/>
+        <SumarioProducto nombreProducto={'Lomo Merluza'} propiedadesProducto={propiedadesProducto}/> 
+        */}
+
 
 </>   
   )

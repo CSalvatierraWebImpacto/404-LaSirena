@@ -1,5 +1,5 @@
 import React from 'react'
-import { SumarioProducto } from './sumarioProducto'
+import { SumarioProducto } from './SumarioProducto'
 
 
 export const SumariosPC = ({propiedadesProducto}) => {
